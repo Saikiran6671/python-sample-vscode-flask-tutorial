@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: Default
+pool: Default
+  
 strategy:
   matrix:
     Python27:
